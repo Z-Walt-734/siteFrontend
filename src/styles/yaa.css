@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+
+
+/* For phones: */
+h1 {
+    position:relative;
+    z-index: 500;
+}
+
+body{
+	background-color: #792a8b;
+	color: white;
+	font-family:Source Sans Pro;
+	font-variant-numeric: slashed-zero;
+}
+
+.time-line{
+	position: absolute;
+  	right: 40%;
+}
+
+/* For full computers: */
+@media only screen and (min-width: 768px) {
+	.time-line{
+		position: static;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+}

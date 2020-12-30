@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+
+
+	
+.time-block{
+	background: #8a449c;
+	padding: 2px 0px 6px 0px;
+	border-left: solid #792a8b 8px;
+	border-right: solid #792a8b 8px;
+	border-radius: 15px;
+	margin-top: 15px;
+}
+
+.label-block{
+	margin-top: -15px;
+	text-align: left;
+
+}
+
+.tool{
+	width: 150px;
+	margin-top: 15px;
+}
+
+
+
+	/* For mobile phones: */
+	
